@@ -1,0 +1,37 @@
+.choix {
+    font-weight: bold;
+}
+
+
+ select, textarea, input {
+    width: 50vb;
+    height: 5vh;
+    position: relative;
+
+ }
+
+ label {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
+ }
+
+ #photo {
+  width: 30vh;
+  position: relative;
+   
+ }
+
+ #img {
+   position: absolute;
+   margin-left: 20%;
+  
+ }
+
+ main {
+  margin-left: 30%;
+   
+ }
+
+ 

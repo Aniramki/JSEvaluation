@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+
+    <main>
+        <h1>CONTACTER LE SERVICE CLIENT</h1>
+        <form action="" method="post" id="myForm">
+           
+              <div class="Formulaire">
+                
+                <label for="demande" >VOTRE DEMANDE:*</label>
+                  <select id="demande" name="demande" required>
+                      <option value="" class="choix">Votre demande concerne </option>
+                      <option value="IA">Information articles</option>
+                      <option value="CP">Commande & paiement</option>
+                      <option value="EL">Expédition & livraison</option>
+                      <option value="RER">Retour, échange & remboursement</option>
+                      <option value="CPBA">Code promo & Bon d'achat</option>
+                      <option value="Nl">Newsletters</option>
+                      <option value="PT">Problème technique</option>
+                      <option value="AD">Autres demandes</option>
+                      <option value="PDP">Protection des données pesonnelles</option>
+                    </select>
+            
+                  </div>
+               
+              <div>
+                <label for="message">MESSAGE:*</label>
+                <textarea name="message" id="message" rows="10" placeholder="Votre message" required ></textarea>
+              </div>
+              <div class="Formulaire">
+                <label for="prenom">VOTRE PRENOM:*</label>
+                <input type="text" name="nom" id="prenom" required  />
+              </div>
+              <div class="Formulaire">
+                <label for="nom">VOTRE NOM:*</label>
+                <input type="text" name="nom" id="nom" required />
+              </div>
+              <div class="Formulaire">
+                <label for="email">VOTRE COURRIEL:*</label>
+                <input type="email" placeholder="monadresse@gmail.com" name="email" id="email" required />
+              </div>
+              <div class="Formulaire">
+
+                <img id="img" src="/images/neutre.jpg" class="img" alt="photo">
+
+                <label for="photo">VOTRE PHOTO:*</label>              
+                  <select id="photo" name="photo" required> 
+                      <option value="" class="choix">Sélectionner votre photo</option>
+                      <option value="/images/alain.jpg">Alain</option>
+                      <option value="/images/albert.jpg">Albert</option>
+                      <option value="/images/alfred.jpg">Alfred</option>
+                      <option value="/images/alphonse.jpg">Alphonse</option>
+                      <option value="/images/alphonsine.jpg">Alphonsine</option>
+                      <option value="/images/berth.jpg">Berth</option>
+                      <option value="/images/elisabeth.jpg">Elisabeth</option>
+                      <option value="/images/gertrude.jpg">Gertrude</option>
+                      <option value="/images/gilbert.jpg">Gilbert</option>
+                      <option value="/images/gilberte.jpg">Gilberte</option>
+                      <option value="/images/hugh.jpg">Hugh</option>
+                      <option value="/images/jacques.jpg">Jacques</option>
+                      <option value="/images/john.jpg">John</option>
+                    </select>
+                  </div>
+              
+        </form>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
